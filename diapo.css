@@ -60,6 +60,17 @@ h4 {
     flex-direction: row;
 }
 
+.code h4{
+  flex: 0.5;
+}
+.code a {
+  flex: 1;
+}
+
+.code a img {
+  width: 80%;
+}
+
 .logo ul {
   display: flex;
   flex-direction: row;
@@ -73,4 +84,11 @@ h4 {
 
 .logo img {
   width: 100%;
+}
+.copyright{
+  font-size:1.5em;
+}
+
+footer {
+  text-align: right;
 }
