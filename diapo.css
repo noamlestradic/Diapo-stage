@@ -92,3 +92,6 @@ h4 {
 footer {
   text-align: right;
 }
+a img:hover{
+opacity: 0.6;
+}
