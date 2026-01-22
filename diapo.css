@@ -1,0 +1,76 @@
+html {
+  display: flex;
+  flex-direction: column;
+}
+body {
+  background-color: black;
+  color: white;
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+mark {
+  background-color: #f79b2e;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 5em;
+}
+p {
+  font-size: 3em;
+}
+li {
+  font-size: 3em;
+}
+h2,
+h3,
+h4 {
+  font-size: 4em;
+  text-align: center;
+}
+.banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner img {
+  width: 50%;
+}
+
+.image {
+  width: 55%;
+  margin: 100px;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.code{
+    flex-direction: row;
+}
+
+.logo ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.logo ul li {
+  list-style: none;
+}
+
+.logo img {
+  width: 100%;
+}
